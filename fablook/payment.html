@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Payments</title>
+<style>
+*
+{
+	padding:0px;
+	margin:0px;
+}
+.logo
+{	height:69px;
+	background-image:url(3.jpg);
+	Color:white;
+	font-weight:bolder;
+	text-align:center;
+}
+body
+{
+	background-image:url(pay.jpg);
+	background-size:cover;
+	color:white;
+}
+.login
+{
+	background-color:rgba(0,0,0,0.4);
+	padding-top: 20px;
+	padding-left: 50px;
+	color:white;
+	font-weight:bolder;
+	font-style:italic;
+}
+.login input[type="text"]
+{
+	width:250px;
+	height:30px;
+	border:0;
+	border-radius:5px;
+}
+.login input[type="button"]
+{
+	width:250px;
+	height:30px;
+	background-color:rgba(0,0,0,0.5);
+	border-radius:5px;
+	color:white;
+	font-weight:bolder;
+}
+</style>
+<script language="Javascript">
+function parameter(value)
+{
+alert(value);
+}
+</script>
+</HEAD>
+<BODY>
+<div class="logo">
+<h1><font size="18" face="Old English Text MT">Fab-look.com</font></h1>
+</div>
+<div class="login">
+<h1><center><u><i>Customer Details</i></u></center></h1>
+<br/>
+<form>
+First Name*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" placeholder="Enter: First name..."><br/><br/>
+Last Name*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" placeholder="Enter: Last Name..."><br/><br/>
+Shipping Address* &nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" placeholder="Enter: Shipping Address..."><br/><br/>
+Pin code*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" placeholder="Enter: First name..."><br/><br/>
+State*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" placeholder="Enter: Last Name..."><br/><br/>
+District*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" placeholder="Enter: Last Name..."><br/><br/>
+City*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" placeholder="Enter: Last Name..."><br/><br/>
+Mobile No.*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" placeholder="Enter: Last Name..."><br/><br/>
+</form>
+<form>
+<INPUT TYPE="CHECKBOX" NAME="OPT1" VALUE="DETAILS "> I agree to the terms and conditions and there by declare that the details entered are correct.
+<br/><br/><CENTER><input type="button" onclick="parameter('Details saved')" align="center" value="SAVE"></CENTER>
+</form>
+<br/><br/>
+</div>
+<hr>
+<br/>
+<center>
+<FORM>
+<h3><U><i><b><h1>PAYMENT MODES:</h1></b></i></U></h3>
+<center><br/><IMG SRC=Capture.JPG HEIGHT=100 WIDTH=600></center>
+<h4><i><b>Select Any One Choice:</b></i></h4>
+<br>
+<INPUT TYPE="CHECKBOX" NAME="OPT1" VALUE="Credit Card ">Credit Card
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<INPUT TYPE="CHECKBOX" NAME="OPT2" VALUE="Debit Card">Debit Card
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<INPUT TYPE="CHECKBOX" NAME="OPT3" VALUE="Cash On Delivery">Cash On Delivery
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<INPUT TYPE="CHECKBOX" NAME="OPT4" VALUE="Net Banking">Net Banking
+</FORM>
+<br>
+<form>
+<input type="button" style="width:250px;height:30px;background-color:rgba(0,0,0,0.5);border-radius:5px;color:white;font-weight:bolder;"onclick="parameter('Payment successful. Thank you for shopping.')" align="center" value="Confirm Payment">
+</form>
+</center>
+<br/>
+<br/>
+</body>
+</html>

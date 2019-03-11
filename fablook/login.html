@@ -1,0 +1,84 @@
+<!DOCTYPE html 
+<html>
+<head><title></title>
+<style type="text/css">
+*
+{
+	padding:0px;
+	margin:0px;
+}
+.logo
+{	height:69px;
+	background-image:url(1.jpg);
+	Color:white;
+	font-weight:bolder;
+	text-align:center;
+}
+
+body
+{
+	background-image:url(adi.jpg);
+	background-size:cover;
+}
+.login
+{
+	width:300px;
+	height:290px;
+	background-color:rgba(0,0,0,0.4);
+	margin-left:500px;
+	margin-top:110px;
+	padding-top: 20px;
+	padding-left: 50px;
+	border-radius:15px;
+	color:white;
+	font-weight:bolder;
+	font-style:italic;
+}
+.login input[type="text"]
+{
+	width:250px;
+	height:30px;
+	border:0;
+	border-radius:5px;
+}
+.login input[type="password"]
+{
+	width:250px;
+	height:30px;
+	border:0;
+	border-radius:5px;
+}
+.login input[type="button"]
+{
+	width:250px;
+	height:30px;
+	background-color:rgba(0,0,0,0.5);
+	border-radius:5px;
+	color:white;
+	font-weight:bolder;
+}
+.login a
+{
+	text-decoration:none;
+	color:white;
+}
+</style>
+</head>
+<body>
+<div class="logo">
+<h1><font size="18" face="Old English Text MT">Fab-look</font></h1>
+</div><br/>
+<div class="login">
+<h2>Login :</h2>
+<br/>
+<form>
+<input type="text" id="f1" placeholder="Enter: Username or E-mail..."><br/><br/>
+<input type="password" placeholder="Enter: Password..."><br/><br/>
+<a href="#">Forgot Password ?</a><br/>
+<input type="button" value="Login" onclick="alert('Welcome ' + document.getElementById('f1').value)"><br/><br/>
+<input type="button" value="New To Fablook ? Sign Up" onclick="window.location.href='signup.html'">
+
+</form>
+</div>
+</body>
+</html>
